@@ -12,4 +12,3 @@ router.put('/:id', middleware.validarProject, middleware.validarProjectId, proje
 router.delete('/:id', middleware.validarProjectId, projectApi.deletarProject);
 
 module.exports = router;
-
